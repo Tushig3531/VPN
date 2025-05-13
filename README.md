@@ -29,8 +29,14 @@ A VPN is like a secret tunnel over the internet. Even though your data travels o
 ---
 ## Usage
 - Configure your server_cipher.toml and client_cipher.toml with supported ciphers.
-- In one terminal, run the server: $python server.py
-- In another terminal, run the client: $python client.py
+- In one terminal, run the server:
+```bash
+$python server.py
+```
+- In another terminal, run the client:
+```bash
+$python client.py
+```
 - Follow the prompts to exchange encrypted messages.
 - Type \quit at the client to close the connection.
 ---
