@@ -36,6 +36,7 @@ A VPN is like a secret tunnel over the internet. Even though your data travels o
 ---
 ## Example
 ### Server side
+```bash
 $ python3 server.py
 Listening on 127.0.0.1:4600
 New client: 127.0.0.1:57106
@@ -47,7 +48,9 @@ Received: Hi Tushig
 Received: How is your day
 Received: See you!
 Server shutting down
+```
 ### Client side
+```bash
 $ python3 client.py
 Connected to 127.0.0.1:4600
 Negotiating the cipher
@@ -61,4 +64,4 @@ Server replied: yad ruoy si woH
 Enter message (or \quit): See you!
 Server replied: !uoy eeS
 Enter message (or \quit): \quit
-
+```
